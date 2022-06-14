@@ -33,5 +33,9 @@ console.log(512 >= 512) //true
 console.log(512 >= 777) //false
 console.log(512 <= 777) // true
 
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
 
+console.log(array3);
 
