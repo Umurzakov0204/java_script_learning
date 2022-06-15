@@ -36,6 +36,16 @@ console.log(512 <= 777) // true
 const array1 = ['a', 'b', 'c'];
 const array2 = ['d', 'e', 'f'];
 const array3 = array1.concat(array2);
-
+// concat соединяет два массива
 console.log(array3);
 
+var a = ['Ветер', 'Дождь', 'Огонь'];
+var myVar1 = a.join();      // присвоит 'Ветер,Дождь,Огонь' переменной myVar1
+var myVar2 = a.join(', ');  // присвоит 'Ветер, Дождь, Огонь' переменной myVar2
+var myVar3 = a.join(' + '); // присвоит 'Ветер + Дождь + Огонь' переменной myVar3
+var myVar4 = a.join('');    // присвоит 'ВетерДождьОгонь' переменной myVar4
+
+console.log(myVar1)
+console.log(myVar2)
+console.log(myVar3)
+console.log(myVar4)
