@@ -43,4 +43,28 @@ console.log(sports);
 console.log(sports2);
 // push => толкать
 
+const chisloBukv = 'JavaScript';
+const empty = ' ';
+console.log('В JavaScript ' + chisloBukv.length + ' букв');
+// length => длина
+
+const words = ['spray', 'limit', 'elite', 'exuberent', 'destruction', 'present'];
+const result = words.filter(words => words.length > 6);
+console.log(result);
+// filter => фильтр
+
+
+function isPrime(element, index, array) {
+    let start = 2;
+    while (start <= Math.sqrt(element)) {
+        if (element % start++ < 1) {
+            return false;
+        }
+    }
+    return element > 1;
+}
+console.log([4, 5, 8, 12].find(isPrime));
+// find => находить
+
+
 
