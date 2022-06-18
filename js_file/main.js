@@ -33,5 +33,15 @@ console.log(512 >= 512) //true
 console.log(512 >= 777) //false
 console.log(512 <= 777) // true
 
+// рекурсия
+const factorial = (n) => {
+    if (n === 1 ) {
+        return 1;
+    }
+    else {
+        return n * factorial(n - 1);
+    }
+}
 
-
+const answer = factorial(3)
+console.log(answer)
