@@ -67,4 +67,38 @@ console.log([4, 5, 8, 12].find(isPrime));
 // find => находить
 
 
+console.log('APPLE'.toLowerCase()); // apple
+// toLowerCase => в Нижний регистр
+
+console.log('apple'.toUpperCase()); // APPLE
+// toUpperCase => в Верхний регистр
+
+let text = "How are you today?";
+const myArray = text.split(" ");
+const  myArray2 = text.split("", 50)
+console.log(myArray);
+console.log(myArray2);
+// split => расщеплять
+
+
+const num = [1, 2, 3, 4, 5, 6];
+console.log(num.includes(1));
+
+const string = ['cat', 'dog', 'fox', 'bird'];
+console.log(string.includes('cat'));
+console.log(string.includes('at'));
+// incudes => включает в себя
+
+const arrayys = [1,2,3,4,5];
+const even = (element) => element % 2 === 0;
+console.log(arrayys.some(even));
+// even => даже
+
+function isBigEnough(element, index, array) {
+    return element >= 10;
+}
+
+[12, 54, 18, 130, 44].every(isBigEnough);
+
+
 
