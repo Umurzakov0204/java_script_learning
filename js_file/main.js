@@ -32,20 +32,19 @@ console.log(512 >= 512) //true
 console.log(512 >= 777) //false
 console.log(512 <= 777) // true
 
-<<<<<<< HEAD
 // рекурсия
-// const factorial = (n) => {
-//     if (n === 1 ) {
-//         return 1;
-//     }
-//     else {
-//         return n * factorial(n - 1);
-//     }
-// }
+const factorial = (n) => {
+    if (n === 1 ) {
+        return 1;
+    }
+    else {
+        return n * factorial(n - 1);
+    }
+}
 
 const answer = factorial(3)
 console.log(answer)
-=======
+
 // ____ Arrays Methods
 const array1 = ['a', 'b', 'c'];
 const array2 = ['d', 'e', 'f'];
@@ -93,4 +92,7 @@ function ourterFun(i) {
 innerFun(10);
 
 ourterFun(2)
->>>>>>> 16658fc2229103819357f8dacd007b61e4ecc27f
+
+// async это асинхронность
+// await это ждать
+// promise это обещание
