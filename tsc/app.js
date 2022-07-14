@@ -88,8 +88,44 @@
 // Кроме обычных методов классы имеют специальные функции - конструкторы, 
 // которые определяются с помощью ключевого слова constructor. 
 // Конструкторы выполняют начальную инициализацию объекта.
-var User = /** @class */ (function () {
-    function User() {
-    }
-    return User;
-}());
+// class User {
+//     name: string;
+//     age: number;
+// }
+var num = 24;
+console.log(num); // 24
+var str = 'Hello World';
+console.log(str); // Hello World
+var bool = true;
+console.log(bool); // true
+var num2 = 34;
+console.log(num2);
+var firstName = "Tom";
+var age = 20;
+var info = "Name:".concat(firstName, " Age:").concat(age);
+console.log(info);
+var num1 = BigInt(100);
+console.log(num1);
+function add(a, b) {
+    return a + b;
+}
+var result = add(45, 35);
+console.log(result);
+function numbers(a, b) {
+    var result = a + b;
+    console.log(result);
+}
+numbers(25, 25);
+numbers(45, 45);
+// console.log(numbers)
+function numbers1(a, b) {
+    var result = a + b;
+    console.log(result);
+}
+numbers1(1, 2);
+numbers1(2, 2);
+function add2(a, b) {
+    return a + b;
+}
+var result2 = add(12, 13);
+console.log(result2);

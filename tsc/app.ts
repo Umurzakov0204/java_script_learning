@@ -115,6 +115,55 @@
 
 
 
+let num: number = 24;
+console.log(num) // 24
+let str: string = 'Hello World';
+console.log(str) // Hello World
+let bool: boolean = true;
+console.log(bool) // true
+
+let num2 = 34;
+console.log(num2)
+
+
+let firstName: string = "Tom";
+let age: number = 20;
+let info: string = `Name:${firstName} Age:${age}`;
+console.log(info)
+
+const num1: bigint = BigInt(100);
+console.log(num1)
+
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(45, 35);
+console.log(result)
+
+function numbers(a:number, b:number) {
+    let result = a + b
+    console.log(result)
+}
+
+numbers(25, 25);
+numbers(45, 45);
+// console.log(numbers)
+
+
+function numbers1(a:number, b:number): void {
+    let result = a + b;
+    console.log(result)
+}
+numbers1(1,2)
+numbers1(2,2)
+
+function add2(a, b) {
+    return a + b
+}
+let result2 = add(12,13)
+console.log(result2)
+
 
 
 
